@@ -1,7 +1,7 @@
 .main-container {
   height: 100%;
   width: 100%;
-
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,6 +13,14 @@
   background: black;
 
   box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+
+.sign {
+  position: absolute;
+  top: calc(50% + 8em);
+  font-weight: bold;
+  font-size: 28px;
+  color: black;
 }
 
 .clip {
