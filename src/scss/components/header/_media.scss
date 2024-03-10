@@ -1,0 +1,87 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1280px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .header-content {
+    &__main {
+      z-index: 11;
+    }
+
+    &__image-container {
+      opacity: 0.5;
+    }
+  }
+
+  #header-navigation .navigation-list {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navigation-link {
+    text-wrap: nowrap;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .header-top {
+    &__logo {
+      font-size: 20px;
+    }
+
+    nav {
+      display: none;
+    }
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  .header-content {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    &__main {
+      width: auto;
+    }
+
+    &__image-container {
+      display: none;
+    }
+
+    &__social-media {
+      flex-direction: row;
+      gap: 0 16px;
+      margin: 32px 0 0 0;
+    }
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .header-top {
+    &__logo-container {
+      gap: 0 2px;
+    }
+
+    &__logo {
+      font-size: 16px;
+    }
+  }
+
+  .contacts {
+    &__phone-number {
+      font-size: 12px;
+    }
+
+    &__schedule {
+      font-size: 10px;
+    }
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {}

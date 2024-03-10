@@ -1,0 +1,83 @@
+@import './_libs';
+@import './_variables';
+@import './components/header/_header';
+@import './components/about/_about';
+@import './components/footer/_footer';
+
+/* General styles */
+
+* {
+  box-sizing: border-box;
+  color: $font-color-primary;
+}
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  min-width: 320px;
+  scroll-behavior: smooth;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin: 0;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+/* Custom styles */
+
+/* Обертка, ограничивающая ширину контента */
+// .content-wrapper {
+//   max-width: 1110px;
+//   margin: 0 auto;
+// }
+
+.font-xlarge {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.font-large {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.font-medium {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.font-small {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+
+// @import './_media';
